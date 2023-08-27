@@ -15,13 +15,13 @@ class Bot(Client):
     def __init__(self):
         super().__init__(
             name="Bot",
-            api_hash=API_HASH,
-            api_id=APP_ID,
+            api_hash=fb6daf034dce40b0cd750ddce52dadf7,
+            api_id=22480172,
             plugins={
                 "root": "plugins"
             },
             workers=TG_BOT_WORKERS,
-            bot_token=TG_BOT_TOKEN
+            bot_token=6500591996:AAGPCw5fZROQWNE8JMuaKqZTp2Hvlxxx8KE
         )
         self.LOGGER = LOGGER
 
